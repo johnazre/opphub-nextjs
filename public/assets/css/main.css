@@ -1,0 +1,112 @@
+.header {
+  margin: 80px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.add {
+  border-style: dashed;
+  display: flex;
+  flex-direction: column;
+}
+
+.center {
+  align-self: center;
+  width: 100%;
+}
+
+#new-project {
+  align-self: flex-start;
+  width: 100%;
+}
+
+.form-row1 {
+  display: flex;
+  justify-content: space-around;
+  flex-grow: 1;
+}
+
+.form-row2 {
+  display: flex;
+  justify-content: center;
+
+}
+
+.form-row3 {
+  display: flex;
+  justify-content: center;
+}
+
+.form-row4 {
+  display: flex;
+  justify-content: center;
+}
+
+.form-row5 {
+  display: flex;
+  justify-content: center;
+}
+
+.form-row6 {
+  display: flex;
+  justify-content: center;
+}
+
+
+.form-complete {
+  border-style: dashed;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: -70px;
+  margin-bottom: 50px;
+  border-color: #ee8b1d;
+}
+
+.card {
+  margin:20px;
+}
+
+.navbar {
+  display: flex;
+  width: 100vw;
+  height: 4em;
+}
+
+.logo {
+  height: 130%;
+  width: auto;
+}
+
+.header2 {
+  margin: 2em 12em 2em 12em;
+  text-align: center;
+  border: solid;
+  box-shadow: 5px 10px 5px grey;
+  padding: 1.5em 6em 1.5em 6em;
+  background-color: #ECEBE9;
+}
+
+.projectbod {
+  align-content: center;
+  text-align: left;
+  border: solid;
+  box-shadow: 10px 10px 5px grey;
+  padding: 1.5em 3em 3em 3em;
+  margin: .5em 10em 1em 10em;
+  background-color: #ECEBE9;
+}
+
+#devbackbutton {
+  margin-left: 1em;
+  margin-top: 1em;
+}
